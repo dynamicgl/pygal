@@ -27,6 +27,7 @@ from pygal.graph.graph import Graph
 from pygal.i18n import COUNTRIES
 from lxml import etree
 import os
+import zipfile
 
 with open(os.path.join(
         os.path.dirname(__file__),
